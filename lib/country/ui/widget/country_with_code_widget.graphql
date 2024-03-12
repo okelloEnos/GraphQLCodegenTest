@@ -1,0 +1,5 @@
+query fetchCountryWithCode($code: ID!) {
+    country(code: $code) {
+        name
+    }
+}

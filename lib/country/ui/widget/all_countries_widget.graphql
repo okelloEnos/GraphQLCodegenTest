@@ -1,0 +1,6 @@
+query fetchAllCountries {
+    countries {
+        name
+        capital
+    }
+}
